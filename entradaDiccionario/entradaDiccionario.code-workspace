@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Formulario"
+		},
+		{
+			"path": "..\\Portafolio"
+		},
+		{
+			"path": "..\\Sangrias"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portafolio"
+	}
+}
