@@ -3,26 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario
-    </title>
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
 </head>
+
 <body>
+    <style>
+        *{  
+            text-align:start;
+            margin: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .formulario {
+                    width: 50%;
+        }
+        .cuadro{
+                padding: 30px;
+                columns: 30px;
+        }
+    </style>
+
+
+<div>
+
+    <form action="post" id="formulario">
+        <h1 style="font-family: Bebas;">Regitracion Form</h1>
+        <table id=" tabla">
+            <tr>
+                <th><label style="font-family:  'Arial Narrow';">Nombre: *<input type="text" name="usuario"></label></th>
+                
+            </tr>
+            <tr>
+                <th><label style="font-family: 'Arial Narrow';"> Apellido: *<input type="text" name="apellido"></label></th>
+                
+            </tr>
+            <tr>
+                <th><label style="font-family: 'Arial Narrow';">Email: *<input type="text" name="Correo Electrònico"></label></th>
+          
+            </tr>
+
+            <tr>
+                <td>Contraseña:   *<input type="password"></td>
+            </tr>
+
+            <tr>
+                <td>Confirmar Contraseña: *<input type="password"></td>
+            </tr>
+
+            <tr>
+                <td>Año De Nacimiento: *<input type="date"></td>
+            </tr>
+
+            <tr> 
+                <td>Genero:</td>
+            </tr>  
+
+        
+
+            <tr>
+                <th><input type="radio">Hombre</th>
+          
+                <th><input type="radio">Mujer</th>
+            
+                <th><input type="radio">No-Binario</th>
+              
+                <th><input type="radio">Prefiero No Contestar</th>
+            
+            </tr>
+       
+            <tr>
+                <td> Pequeña Descripcion Sobre Ti </td>
+                <th cols="30px" id="cuadro" > <input textarea></th>
+                
+            </tr>
+
+                <th></th>
+
+    </table>
+    </form>
+
+
     
 
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
 </body>
-</html>
+</html> 

@@ -1,0 +1,11 @@
+Aprendí cómo se debe armar un portafolio a base de lo que
+ aprendí con el coding dojo arme su estructura de como van 
+ en orden las cosa del lenguaje (html) dentro de (html) conoci 
+ el (head) donde agregue (title) para dar el título a mi pagina 
+ dentro de (html) fui conociendo (h1) donde daba un título a mi 
+estructura y darle forma a mi portafolio, paso a paso fue conociendo 
+(imag),(table),(style),(div),(li) donde fue dando estructura a mi portafolio
+ con proyección de como iba quedando cada estructura.
+
+//*Igual me falto conocer más en detallate HTML y cada concepto que sedaba, 
+tener más practica y tiempo de dudas a resolver. 

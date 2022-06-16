@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2</title>
+</head>
+<!--Damos color al fondo de nuestra pàgina-->
+<body style="background-color: rgb(112, 112, 253);">
+<!--Creamos el Formulario y datos sus especificaciones--> 
+<form style="background-color: beige;">
+<fieldset>
+<!--Creamos un diseño de marco en el formulario-->
+<legend style="font-family: century;">Recompilaciòn de datos</legend>
+<!--Lo usamos para centrar los elementos de la pàginas-->
+<center>
+    <!--Creamos el encabezado del formulario-->
+    <h1 style="font-family: Bebas;">Datos Personales</h1>
+</center>
+<!--Creamos etiquetas indicando el nombre de usuario-->
+<label style="font-family: 'Arial Narrow';">Ingrese Nombre: </label>
+<!--Creamos textbox del nombre de usuario-->
+<input type="text"; name="usuario">
+    <label style="font-family: 'Arial Narrow';"> Ingrese Telèfono: </label>
+    <input type="text"; name="telefono"><br><br>
+<label style="font-family: 'Arial Narrow';">Ingrese Apellido: </label>
+<input type="text"; name="Apellido">
+<label style="font-family: 'Arial Narrow';">Ingrese Direcciòn</label>
+<input type="text"; name="Direcciòn"><br><br>
+<!--Los nombramos de igual menera para que al marcar uno se desmarque el otro-->
+<input type="radio"; name="Genero"; value="Hombre">
+<!--Creamos el radioButton y su etiqueta-->
+<label style="font-family: 'Arial Narrow';">Hombre</label>
+<input type="radio"; name="Genero"; value="Mujer">
+<label style="font-family: 'Arial Narrow';">Mujer</label><br><br>
+<!--Creamos un comboBox-->
+<label for="Paìses">Lista de Paìses</label>
+<select id="Paìses" name="Paises">
+    <!--Indicamos los items del ComboBox-->
+    <option value="Guatemala">Guatemala</option>
+    <option value="Belice">Belice</option>
+    <option value="Honduras">Honduras</option>
+    <option value="El Salvador">El Salvador</option>
+    <option value="Nicaragua">Nicaragua</option>
+    <option value="Costa Rica">Costa Rica</option>
+    <option value="Panamà">Panamà</option>
+    <option value="Chile">Chile</option>
+</select><br><br>
+<!--Creamos los CheckBox-->
+<h2 style="position: static;">Regristro Civil</h2>
+<input type="Checkbox" name="Estado" value="Soltero">
+<label style="font-family: 'Arial Narrow';">Soltero/a</label>
+<input type="Checkbox" name="Estado" value="Casado">
+<label style="font-family: 'Arial Narrow';">Casado/a</label><br>
+<input type="checkbox" name="Estado" value="Soltero">
+<label style="font-family: 'Arial Narrow';">Divorciado/a</label>
+<input type="checkbox" name="Estado" value="Casado">
+<label style="font-family: 'Arial Narrow';">Viudo/a</label><br><br>
+<label style="font-family: 'Arial Narrow';">DPI: </label>
+<input type="text"    name="dpi">
+<label style="font-family: 'Arial Narrow';">Fecha de Nacimiento</label>
+<input type="text" name="fecha"><br><br>
+<label style="font-family: 'Arial Narrow';">Correo Electrònico</label>
+<input type="text" name="Correo">
+<!--Creamos botòn-->
+<center>
+    <!--creamos un enlace a la siguente pàgina y colocamos la imàgen del botòny su dimesiones-->
+    <a href=""><img src="images.jpg" width="100px"; height="40px;" alt="imagenes"></a>
+</center>
+    </form>
+    <address>
+        Constanza Nanjari, 20<br>
+        3º Medio B, Tecnico Programador <br>  
+        <br>       
+    </address>
+</fieldset>
+</body>
+</html>        
