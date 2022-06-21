@@ -1,0 +1,21 @@
+#tablatecnologia{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  .tecnologias{  
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+  }
+  
+  #tecnologias1 {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .tecnologias:nth-child(even) {
+    background-color: #dddddd;
+  }
